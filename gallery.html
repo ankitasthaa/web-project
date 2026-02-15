@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6fb;
+        color: #222;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 30px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
+
+      nav {
+        text-align: center;
+        margin-bottom: 14px;
+      }
+
+      nav a {
+        margin: 0 6px;
+        color: #2563eb;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        color: #1d4ed8;
+      }
+
+      h2 {
+        margin-top: 0;
+        border-bottom: 2px solid #2563eb;
+        padding-bottom: 8px;
+      }
+
+      .video-container {
+        text-align: center;
+      }
+
+      iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border-radius: 8px;
+        border: none;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          margin: 10px;
+          padding: 14px;
+        }
+        nav a {
+          display: block;
+          margin: 6px 0;
+        }
+        iframe {
+          height: auto;
+          aspect-ratio: 16/9;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <h2>Gallery</h2>
+      <div class="video-container">
+        <p>
+          The most helpful video ever to pass and score good grade in the IOST
+          examination.
+        </p>
+        <iframe
+          src="https://www.youtube.com/embed/ksOhkUxHZqs?si=HCCine9s-0glgJC5&amp;start=1"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

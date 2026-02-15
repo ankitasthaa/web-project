@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      @media (max-width: 600px) {
+        body {
+          padding: 10px;
+        }
+        div[style*="max-width"] {
+          margin: 10px auto;
+          padding: 16px;
+        }
+        h1 {
+          font-size: 22px !important;
+        }
+        nav a {
+          display: block;
+          margin: 8px 0;
+        }
+        section {
+          flex-direction: column !important;
+          text-align: center;
+        }
+        img {
+          width: 150px !important;
+          height: 180px !important;
+        }
+        div[style*="flex: 1"] {
+          min-width: 100% !important;
+        }
+        div[style*="display: flex; gap: 10px"] {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      color: #111827;
+    "
+  >
+    <div
+      style="
+        max-width: 900px;
+        margin: 30px auto;
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        padding: 24px;
+      "
+    >
+      <header
+        style="
+          text-align: center;
+          padding-bottom: 14px;
+          border-bottom: 1px solid #e5e7eb;
+        "
+      >
+        <h1 style="margin: 0; font-size: 26px; letter-spacing: 0.5px">
+          Ankita Shrestha
+        </h1>
+        <p style="margin: 6px 0 0; color: #4b5563; font-size: 14px">
+          BSc CSIT Student Portfolio
+        </p>
+      </header>
+
+      <nav
+        style="
+          text-align: center;
+          padding: 12px 0;
+          border-bottom: 1px solid #e5e7eb;
+        "
+      >
+        <a
+          href="index.html"
+          style="
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 700;
+            margin: 0 8px;
+          "
+          >Home</a
+        >
+        <a
+          href="about.html"
+          style="
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 700;
+            margin: 0 8px;
+          "
+          >About</a
+        >
+        <a
+          href="skills.html"
+          style="
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 700;
+            margin: 0 8px;
+          "
+          >Skills</a
+        >
+        <a
+          href="gallery.html"
+          style="
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 700;
+            margin: 0 8px;
+          "
+          >Gallery</a
+        >
+        <a
+          href="contact.html"
+          style="
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 700;
+            margin: 0 8px;
+          "
+          >Contact</a
+        >
+      </nav>
+
+      <section
+        style="
+          display: flex;
+          gap: 18px;
+          flex-wrap: wrap;
+          align-items: center;
+          padding-top: 18px;
+        "
+      >
+        <div style="flex: 1; min-width: 240px">
+          <h2
+            style="
+              margin: 0 0 8px;
+              font-size: 16px;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              border-left: 4px solid #2563eb;
+              padding-left: 10px;
+            "
+          >
+            Welcome
+          </h2>
+          <p style="margin: 0 0 10px; line-height: 1.6; color: #374151">
+            I’m a BSc CSIT student learning web development and programming
+            through academic projects.
+          </p>
+
+          <div style="display: flex; gap: 10px; flex-wrap: wrap">
+            <span
+              style="
+                background: #eef2ff;
+                color: #111827;
+                padding: 6px 10px;
+                border-radius: 999px;
+                font-size: 13px;
+              "
+              >HTML</span
+            >
+            <span
+              style="
+                background: #eef2ff;
+                color: #111827;
+                padding: 6px 10px;
+                border-radius: 999px;
+                font-size: 13px;
+              "
+              >CSS</span
+            >
+            <span
+              style="
+                background: #eef2ff;
+                color: #111827;
+                padding: 6px 10px;
+                border-radius: 999px;
+                font-size: 13px;
+              "
+              >Python</span
+            >
+            <span
+              style="
+                background: #eef2ff;
+                color: #111827;
+                padding: 6px 10px;
+                border-radius: 999px;
+                font-size: 13px;
+              "
+              >JavaScript</span
+            >
+            <span
+              style="
+                background: #eef2ff;
+                color: #111827;
+                padding: 6px 10px;
+                border-radius: 999px;
+                font-size: 13px;
+              "
+              >MySQL</span
+            >
+          </div>
+
+          <p style="margin: 14px 0 0; font-size: 14px">
+            <a
+              href="https://github.com/ankitasthaa"
+              target="_blank"
+              style="text-decoration: none; color: #2563eb; font-weight: 700"
+            >
+              Visit my GitHub →
+            </a>
+          </p>
+        </div>
+
+        <img
+          src="IMG_0916.jpg"
+          alt="photo"
+          style="
+            width: 190px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid #e5e7eb;
+          "
+        />
+      </section>
+
+      <footer
+        style="
+          margin-top: 22px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e7eb;
+          text-align: center;
+          font-size: 13px;
+          color: #6b7280;
+        "
+      >
+        © 2025 Ankita Shrestha • BSc CSIT • 5th Semester
+      </footer>
+    </div>
+  </body>
+</html>
